@@ -1,0 +1,157 @@
+body{
+    background-image: url('mapaopa.jpg');
+    background-size: cover;
+}
+header{
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#tit{
+    margin: 10px;
+    padding: 0;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+.titu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 700px;
+    height: 150px;
+}
+#root{
+    width: 550px;
+    height: 100px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    top: 0;
+    margin: auto;
+    margin-right: 25px;
+    
+}
+
+section{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-bottom: 250px;
+
+}
+form{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.cifrar{
+    background-color: aquamarine;
+    width: 300px;
+    height: 50px;
+    box-shadow:0 0 20px rgba(0, 0,0);
+
+}
+
+.decifrar{
+    background-color: darkorchid;
+    width: 300px;
+    height: 50px;
+    box-shadow:0 0 20px rgba(0, 0,0);
+
+}
+
+button{
+    display: flex;
+    position: relative;
+    top: 250px;
+ 
+}
+.pergaminho{
+    width: 300px;
+    right: 450px;
+}
+.trad{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.ok{
+    display: flex;
+    position: relative;
+    top: 250px;
+}
+#imagem{
+    position: relative;
+    
+}
+span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#deslo{
+   margin-right: 10px;
+   margin-left: 10px;
+    width: 40px;
+    height: 20px;
+    display: flex;
+    position: relative;
+    top: 250px;
+  
+}
+.des{
+   
+    display: flex;
+    position: relative;
+    top: 250px;
+}
+#desloc{
+    margin-right: 10px;
+    margin-left: 10px;
+     width: 40px;
+     height: 20px;
+     display: flex;
+     position: relative;
+     top: 250px;
+}
+.desco{
+    display: flex;
+    position: relative;
+    top: 250px;
+}
+#centra{
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  top: 0;
+  margin: auto;
+}
+#image{
+    position: relative;
+}
+#meio{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    top: 0;
+    margin: auto;
+}
+.resposta{
+    width: 300px;
+    right: 450px;
+}
+
+
+
+

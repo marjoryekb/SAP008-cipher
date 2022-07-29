@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Caesar Cipher</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <header>
+        <div id="tit">
+        <img src="pergaminhotolim.png" class="titu">
+        <div id="root">
+        <h1>Criptografe sua mensagem de <br> caça ao tesouro!</h1>
+      </div>
+    </div>
+    </header>
+      <section>
+        <form id="crip">
+          <input type="text" id="codi" class="cifrar">
+          <label for="desloc" class="des">coloque numero de deslocamento</label>
+          <input type="number" name="numero" id="deslo" >
+          <button type="button" value="enviar" class="ok" id="envcri" >enviar</button>
+          <button type="reset">Limpar</button>
+          <div id="imagem">
+            <img src="pergaminho.png" class="pergaminho">
+            <div id="centra">
+            <span id="resu"></span>
+          </div>
+          </div>
+        </form>
+      </section>
+      <section>
+        <form id="descp">
+  
+          <input type="text" class="decifrar" id="tradu">
+          <label for="desloc" class="des">Coloque número de Deslocamento</label>
+          <input type="number" name="nume" id="desloc">
+          <button type="button"  class="desco" id="destra">enviar</button>
+          <button type="reset">Limpar</button>
+          <div id="image">
+            <img src="pergaminho.png"  class="resposta">
+            <div id="meio">
+          <span id="deci"></span>
+        </div>
+        </div>
+        </form>
+      </section>
+    </main>
+
+    <script src="index.js" type="module"></script>
+  </body>
+</html>
