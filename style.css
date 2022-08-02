@@ -35,6 +35,9 @@ header{
     
 }
 
+input::placeholder {
+    color: rgb(12, 11, 11);
+  }
 section{
     display: flex;
     align-items: center;
@@ -49,7 +52,7 @@ form{
     
 }
 .cifrar{
-    background-color: aquamarine;
+    background-color: rgb(243, 187, 110);
     width: 300px;
     height: 50px;
     box-shadow:0 0 20px rgba(0, 0,0);
@@ -57,7 +60,7 @@ form{
 }
 
 .decifrar{
-    background-color: darkorchid;
+    background-color: rgb(243, 187, 110);
     width: 300px;
     height: 50px;
     box-shadow:0 0 20px rgba(0, 0,0);
